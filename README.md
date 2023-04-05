@@ -1,25 +1,40 @@
-# Projeto Automação Web - Busca de Preços
-Projeto de buscador de preços automatizado para google shopping e buscapé
+# Automated price comparison project for Google Shopping and Buscapé
 
-### Objetivo: treinar um projeto em que a gente tenha que usar automações web com Selenium para buscar as informações que precisamos
+### Objective
 
-### Como funciona:
+To train a project in which we have to use web automations with Selenium to fetch the information we need.
 
-- Imagina que você trabalha na área de compras de uma empresa e precisa fazer uma comparação de fornecedores para os seus insumos/produtos.
-- Nessa hora, você vai constantemente buscar nos sites desses fornecedores os produtos disponíveis e o preço, afinal, cada um deles pode fazer promoção em momentos diferentes e com valores diferentes.
-- Se o valor dos produtos for abaixo de um preço limite definido por você, você vai descobrir os produtos mais baratos e atualizar isso em uma planilha.
-- Em seguida, vai enviar um e-mail com a lista dos produtos abaixo do seu preço máximo de compra.
+### How it works
 
-### Outra opção:
+Imagine that you work in the purchasing department of a company and need to compare suppliers for your inputs/products.
 
-- APIs
+At this point, you will constantly search the suppliers' websites for available products and prices, after all, each of them may offer promotions at different times and with different values.
 
-### Dataset disponível?
+If the product price is below a limit set by you, you will find the cheapest products and update it in a spreadsheet.
 
-- Planilha de Produtos, com os nomes dos produtos, o preço máximo, o preço mínimo (para evitar produtos "errados" ou "baratos de mais para ser verdade" e os termos que vamos querer evitar nas nossas buscas.
+Then, you will send an email with a list of products below your maximum purchase price.
 
-### Roadmap:
+### Alternative
 
-- Procurar cada produto no Google Shopping e pegar todos os resultados que tenham preço dentro da faixa e sejam os produtos corretos
-- O mesmo para o Buscapé
-- Enviar um e-mail para o seu e-mail (no caso da empresa seria para a área de compras por exemplo) com a notificação e a tabela com os itens e preços encontrados, junto com o link de compra.
+Using APIs (Application Programming Interfaces) can be a powerful solution for automating tasks such as comparing suppliers for purchasing decisions. APIs can provide a structured and efficient way to access data from supplier websites, allowing for real-time price and inventory updates.
+
+With the ability to integrate with other tools and automate workflows, APIs can streamline the procurement process, increasing efficiency and reducing the risk of errors.
+
+Additionally, using APIs can provide a scalable solution for businesses of all sizes, enabling them to leverage the power of technology to make informed purchasing decisions.
+
+
+### Dataset available
+
+Product Spreadsheet, containing the product names, maximum and minimum prices (to avoid "wrong" or "too good to be true" products), and terms to be excluded from our searches.
+
+### Analysis Roadmap
+
+Search for each product on Google Shopping and Buscapé, and retrieve all results within the price range and are the correct products.
+
+Send an email notification to your email (if it's a company, to the purchasing department, for example), including a table of the items and prices found, along with the purchase link.
+
+### Libraries and databases
+ - Pandas
+ - Selenium
+ - Time
+ - Webdriver
