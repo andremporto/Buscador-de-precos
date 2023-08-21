@@ -1,3 +1,4 @@
+![Buscador-de-precos](https://socialify.git.ci/andremporto/Buscador-de-precos/image?description=1&descriptionEditable=Buscador%20de%20pre%C3%A7os%20automatizado%20em%20Python.&forks=1&issues=1&language=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
 # Automated price comparison project for Google Shopping and Buscapé
 
 ### Objective
